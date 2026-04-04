@@ -1,0 +1,36 @@
+body {
+  background-color: lightblue;
+  font-family: Comic Sans MS;
+}
+
+button {
+  padding: 10px;
+  transition: ease-in-out 1s;
+}
+
+button:hover {
+  padding: 11px;
+  cursor: pointer;
+}
+
+.movie-info {
+  text-align: center;
+  display: flex;
+  margin-right: 80%;
+  flex-direction: column;
+}
+
+p {
+  background-color: gray;
+  margin: 0;
+  width: 65%;
+  height: 50px;
+  align-self: center;
+}
+
+img {
+  max-width: 200px;
+  align-self: center;
+}
+
+/*# sourceMappingURL=index.css.map */
