@@ -9,11 +9,11 @@ function MovieCard({movie}) {
                 <button className="favorite-btn" onClick={onFavoriteClick}>👍</button>
             </div>
         </div>
+
         <div className="movie-info">
             <h2>{movie.title}</h2>
             <img src={movie.imageUrl} alt={movie.title} />
             <p>{movie.release_date}</p>
-
         </div>
     </div>
 }
